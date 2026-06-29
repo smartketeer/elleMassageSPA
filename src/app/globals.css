@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-spa-bg: #FAF5F0;
+  --color-spa-text: #4A3B32;
+  --color-spa-accent: #D4A373;
+  --color-spa-accent-hover: #C39363;
+  --color-spa-card: #FAEDCD;
+  --color-spa-muted: #E9EDC9;
+}
+
+:root {
+  --background: var(--color-spa-bg);
+  --foreground: var(--color-spa-text);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
