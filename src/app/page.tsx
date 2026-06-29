@@ -20,7 +20,7 @@ export default function Home() {
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-gray-900/60 z-0"></div>
         
-        <div className="relative z-10 w-full max-w-6xl mx-auto px-6">
+        <div className="relative z-10 w-full max-w-6xl mx-auto px-6 pt-32 pb-16">
           <div className="max-w-2xl text-left">
             <span className="inline-block py-1 px-3 rounded-full bg-white/10 backdrop-blur-sm text-white font-semibold text-sm mb-6 border border-white/20">
               Welcome to Relaxation
